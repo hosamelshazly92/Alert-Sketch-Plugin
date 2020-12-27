@@ -1,17 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
-  "icon": "icon.png",
+  "icon": "alert.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "alert-sketch-plugin.my-command-identifier",
+      "name": "Alert",
+      "identifier": "alert.my-command-identifier",
       "script": "./my-command.js"
     }
   ],
   "menu": {
-    "title": "Alert Sketch Plugin",
+    "title": "Alert",
     "items": [
-      "alert-sketch-plugin.my-command-identifier"
+      "alert.my-command-identifier"
     ]
   }
 }
